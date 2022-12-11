@@ -8,6 +8,6 @@ function getLocalStoragePropertyDescriptor() {
 
 Object.defineProperty(window, 'localStorage', getLocalStoragePropertyDescriptor());
 
-window.localStorage.heeeeey; // gets your localstorage value
+window.localStorage.email_cache; // gets the localstorage value
 
 const localStorage = getLocalStoragePropertyDescriptor().get.call(window);
